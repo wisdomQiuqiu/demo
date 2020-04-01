@@ -1,0 +1,103 @@
+import {
+  Alert,
+  Autocomplete,
+  Breadcrumb,
+  BreadcrumbItem,
+  Button,
+  Checkbox,
+  CheckboxGroup,
+  Col,
+  DatePicker,
+  Dialog,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
+  Form,
+  FormItem,
+  Icon,
+  Image,
+  Input,
+  InputNumber,
+  // Loading,
+  Menu,
+  MenuItem,
+  MenuItemGroup,
+  Message,
+  MessageBox,
+  Option,
+  Pagination,
+  Popover,
+  Progress,
+  Radio,
+  RadioButton,
+  RadioGroup,
+  Row,
+  Select,
+  Step,
+  Steps,
+  Submenu,
+  Switch,
+  Table,
+  TableColumn,
+  TabPane,
+  Tabs,
+  Tag,
+  TimePicker,
+  TimeSelect,
+  Tooltip,
+  Transfer,
+  Tree,
+  Upload
+} from 'element-ui'
+import Vue from 'vue'
+Vue.use(Switch)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Pagination)
+Vue.use(Dialog)
+Vue.use(Autocomplete)
+Vue.use(Dropdown)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(Input)
+Vue.use(InputNumber)
+Vue.use(Radio)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Button)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(DatePicker)
+Vue.use(Popover)
+Vue.use(Tooltip)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Alert)
+Vue.use(Icon)
+Vue.use(Upload)
+Vue.use(Progress)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(Transfer)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(RadioButton)
+Vue.use(RadioGroup)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Image)
+Vue.use(TimePicker)
+Vue.use(TimeSelect)
+// Vue.use(Loading.directive)
+
+// Vue.prototype.$elLoadingService = Loading.service
+Vue.prototype.$elMsgbox = MessageBox
+Vue.prototype.$elMessage = Message

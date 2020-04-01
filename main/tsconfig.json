@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "strict": true,
+    "noImplicitThis": false, //不允许this有隐式any的类型
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "esModuleInterop": true, //允许export = 导出和import from 导入
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "pretty": true, // 给错误和消息设置样式，使用颜色和上下文。
+    "baseUrl": "./",
+    "strictFunctionTypes": false,
+    "types": [
+      "node",
+      "webpack-env",
+      "lodash",
+      "moment",
+      "qs"
+    ],
+    "typeRoots": ["./types", "./node_modules/vue/types"],
+    "paths": {
+      "@/*": ["src/*"],
+      "@main/*": ["src/project-main/*"],
+      "@settle/*": ["src/project-settle-center/*"],
+      "@supply-chain/*": ["src/project-supply-chain-manage/*"],
+      "@common/*": ["src/common/*"],
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost", "es2019"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
+}

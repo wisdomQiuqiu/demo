@@ -1,0 +1,14 @@
+{
+  "main": {
+    "port": "6060",
+    "title": "平台"
+  },
+  "settle-center": {
+    "port": "6161",
+    "title": "结算中心"
+  },
+  "supply-chain-manage": {
+    "port": "6262",
+    "title": "供应链"
+  }
+}
